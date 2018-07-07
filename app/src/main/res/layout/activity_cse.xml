@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CseActivity">
+
+    <TextView
+        android:id="@+id/txt_dept_cse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="@string/txt_cse"
+        android:textColor="@color/colorText"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:id="@+id/img_cse_head"
+        android:layout_width="110dp"
+        android:layout_height="126dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="118dp"
+        app:srcCompat="@drawable/head_cse" />
+
+    <TextView
+        android:id="@+id/txt_cse_head_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/img_cse_head"
+        android:layout_marginEnd="62dp"
+        android:text="@string/txt_cse_head_name"
+        android:textColor="@color/colorText" />
+
+    <TextView
+        android:id="@+id/txt_cse_designation"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/txt_cse_head_name"
+        android:layout_marginTop="147dp"
+        android:text="@string/txt_cse_head_designation"
+        android:textColor="@color/colorText" />
+</RelativeLayout>

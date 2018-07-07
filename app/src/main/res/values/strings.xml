@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BAUST_App</string>
+    <string name="txt_cse">CSE</string>
+    <string name="txt_eee">EEE</string>
+    <string name="txt_me">ME</string>
+    <string name="txt_cse_head_name">Dr. Md. Mamunur Rashid</string>
+    <string name="txt_cse_head_designation"><![CDATA[Designation: Dean, Faculty of CEE, Head of the Dept. & Associate Professor]]></string>
+    <string name="txt_eee_head_name">Ashrafun Naher Pinky</string>
+    <string name="txt_me_head_name">Professor Dr. Md Lutfor Rahman</string>
+    <string name="txt_me_designation"><![CDATA[Designation: Professor & Head of the Dept, ME]]></string>
+</resources>
